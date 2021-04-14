@@ -1,5 +1,5 @@
 from django.db import models
-class Data(models.Model):
+class data(models.Model):
     latitude = models.FloatField()
     longitude = models.FloatField()
     unique_squirrel_id = models.CharField(unique=True, max_length=200)
